@@ -118,11 +118,11 @@ sharing: # 공유 표시
 ## => Comments
 ##############################
 comments: # 댓글 공급자 선택
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
-    shortname: "Summer" # the Disqus shortname for the site
+    shortname: summernme-github-io # the Disqus shortname for the site
 
   ## Gitalk => 깃허브? 계정, 댓글 생성 시 이슈칸에 알림하는 기능
   # please refer to https://github.com/gitalk/gitalk for more info.
