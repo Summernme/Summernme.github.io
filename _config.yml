@@ -36,10 +36,10 @@ timezone: Asia/Seoul # see https://en.wikipedia.org/wiki/List_of_tz_database_tim
 author:
   type      : # "person" (default), "organization"
   name      : "Soyeon"
-  url       :
+  url       : "https://Summernme.github.io"
   avatar    : "assets/images/summer.jpeg" # path or url of avatar image (square)
   bio       : I am an amazzzzzing person.
-  email     :
+  email     : 
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -70,7 +70,7 @@ paths:
 
 ## => Post
 ##############################
-## excerpt
+## excerpt => 자동으로 본문 발췌 시 구분점을 어떤 것으로 할 지
 excerpt_separator: <!--more-->
 
 ## license
@@ -107,7 +107,7 @@ sources: # bootcdn (default), unpkg
 
 ## => Sharing
 ##############################
-sharing:
+sharing: # 공유 표시
   provider: false # false (default), "addtoany", "addthis", "custom"
 
   ## AddThis
@@ -124,9 +124,9 @@ comments: # 댓글 공급자 선택
   disqus:
     shortname: "Summer" # the Disqus shortname for the site
 
-  ## Gitalk
+  ## Gitalk => 깃허브? 계정, 댓글 생성 시 이슈칸에 알림하는 기능
   # please refer to https://github.com/gitalk/gitalk for more info.
-  gitalk:
+  gitalk: 
     clientID    : # GitHub Application Client ID
     clientSecret: # GitHub Application Client Secret
     repository  : # GitHub repo
@@ -134,7 +134,7 @@ comments: # 댓글 공급자 선택
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
-  ## Valine
+  ## Valine => 이것도 댓글 시스템
   # please refer to https://valine.js.org/en/ for more info.
   valine:
     app_id      : # LeanCloud App id
@@ -163,17 +163,17 @@ search:
 
   ## Google Custom Search Engine
   google:
-    custom_search_engine_id: # Google Custom Search Engine ID
+    custom_search_engine_id: "d7651af1ac70a4c56" # Google Custom Search Engine ID
 
 
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: "google" # false (default), "google", "custom"
 
   ## Google Analytics
   google:
-    tracking_id : # Google Analytics id for the site
+    tracking_id : "G-H7MS9581GN" # Google Analytics id for the site
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
