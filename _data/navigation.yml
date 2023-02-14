@@ -23,7 +23,7 @@ header:
     fr-LU   : *FR
     tr      : &TR       Ana Sayfa
     # @end locale config    
-    url: _layouts/Home.html
+    url: /Home.html
 
   - titles:
       # @start locale config
@@ -102,3 +102,6 @@ header:
       tr      : &TR       Hakkında
       # @end locale config
     url: /about.html
+    
+  - title: GitHub
+    url: https://github.com/Summernme
