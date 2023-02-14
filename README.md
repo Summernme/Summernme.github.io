@@ -1,1 +1,2 @@
-[Github Blog](https://Summernme.github.io/)
+
+[Blog](https://Summernme.github.io/){:.button.button--primary.button--pill}
