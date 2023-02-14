@@ -5,6 +5,10 @@
   }
 }
 
+.item__subtitle {
+  color: rgb(150, 150, 150) !important;
+}
+
 .item__image {
   margin-right: map-get($spacers, 3);
   & + .item__content {

@@ -1,5 +1,5 @@
 ---
-title: Post with Header Image
+title: 헤더 이미지
 tags: TeXt
 article_header:
   type: cover
