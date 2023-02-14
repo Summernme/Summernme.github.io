@@ -1,5 +1,7 @@
 
+
 <footer class="footer py-4 js-page-footer">
+
   <div class="main">
 
     {%- assign _site_author = site.author -%}
@@ -26,10 +28,15 @@
     {%- assign _locale_copyright_dates = __return -%}
     <div class="site-info mt-2">
       <div>
-        {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
+        <!-- {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
         {%- assign _locale_copyright_dates = __return -%}
-        © {{ site.title }} {{ _locale_copyright_dates }},
+        © {{ site.title }} {{ _locale_copyright_dates }}, -->
+        <span>© </span><span id="current_date"></span><span>. {{ site.title }} all rights reserved.</span>
       </div>
     </div>
   </div>
+  <script>
+    date = new Date();
+    document.getElementById("current_date").innerHTML =date.getFullYear();
+  </script>
 </footer>
