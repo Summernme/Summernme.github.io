@@ -1,5 +1,20 @@
 ---
 layout: article
+title: About Me
+mode: immersive
+header:
+  theme: dark
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: /dream.jpg
+---
+
+<!-- ---
+layout: article
 article_header:
   type: cover
   image:
@@ -28,7 +43,10 @@ titles:
   fr-LU   : *FR
   # @end locale config
 key: page-about
----
+--- -->
 
+<br/><br/><br/>
+
+# Summer
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QHm8IFldgq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
