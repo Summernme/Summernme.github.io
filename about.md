@@ -28,10 +28,8 @@ titles:
   fr-LU   : *FR
   # @end locale config
 key: page-about
-youtubeurl: https://www.youtube.com/watch?v=gset79KMmt0
 ---
 
 
-{% youtube page.youtubeurl %}
 
-<!-- <div>{%- include extensions/youtube.html id='N0YIf9wzCn8&t=2471s' -%}</div> -->
+<div>{%- include extensions/youtube.html id='N0YIf9wzCn8&t=2471s' -%}</div>
