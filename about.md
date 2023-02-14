@@ -1,5 +1,9 @@
 ---
 layout: article
+article_header:
+  type: cover
+  image:
+    src: /dream.jpg
 titles:
   # @start locale config
   en      : &EN       About
@@ -26,6 +30,6 @@ titles:
 key: page-about
 ---
 
-![TeXt](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+
 
 <div>{%- include extensions/youtube.html id='N0YIf9wzCn8&t=2471s' -%}</div>
