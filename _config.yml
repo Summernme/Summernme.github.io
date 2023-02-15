@@ -22,7 +22,7 @@ url     : "https://Summernme.github.io" # the base hostname & protocol for your 
 baseurl : # does not include hostname => baseURL 존재 시 기재
 title   : "Summer.log" # 사이트 이름
 description: > # this means to ignore newlines until "Language & timezone" => 사이트 상세 정보
-  나는 한국인이다. 
+  Summer Blog 
 
 
 ## => Language and Timezone
