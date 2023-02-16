@@ -24,23 +24,25 @@ titles:
   fr-LU   : *FR
   tr      : &TR       Ana Sayfa
   # @end locale config
-show_title: false
+show_title: true
 cover: /dream.jpg
 articles:
   type: brief
   data_source: paginator.posts
   article_type: BlogPosting
-  show_cover: false
-  show_excerpt: false
+  show_cover: true
+  show_excerpt: true
   show_readmore: false
   show_info: true
 permalink: /home.html
+
 ---
 <div class="layout--home">
+  <!-- <img src="/dream.jpg" alt="My Image"> -->
   {%- include paginator.html -%}
 </div>
-<!-- <script>
+<script>
   {%- include scripts/home.js -%}
 </script>
 
-{{ content }} -->
+{{ content }}

@@ -37,11 +37,11 @@ author:
   type      : person # "person" (default), "organization"
   name      : "So yeon Kim"
   url       : "https://Summernme.github.io"
-  avatar    : "assets/images/summer.jpeg" # path or url of avatar image (square)
-  bio       : I am an amazzzzzing person.
-  email     : 
+  avatar    : "assets/images/summer.jpg" # path or url of avatar image (square)
+  bio       : 멋있는 사람이 되자.
+  email     : "cie654@naver.com"
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
-  twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+  twitter   : "istjmt" # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
   telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
@@ -64,8 +64,11 @@ repository_tree: main
 paths:
   root    : # title link url, "/" (default)
   home    : # home layout url, "/" (default)
+  All     : "/all"
+  Blog    : "/blog"
   archive : "/archive" # "/archive.html" (default)
-  rss     : # "/feed.xml" (default)
+  About   : "/about"
+
 
 
 ## => Post
@@ -84,7 +87,7 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
+mathjax: true # false (default), true
 mathjax_autoNumber: # false (default), true
 
 ## Mermaid

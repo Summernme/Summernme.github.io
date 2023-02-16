@@ -1,21 +1,21 @@
 ---
 layout: page
-title: 가
-permalink: /blog.html
+title: Blog
+permalink: /Blog.html
+Summary: "일상 기록"
+
 ---
-<div class="layout--articles">
-  <section class="my-5">
-    <header><h2 id="page-layout">Page Layout</h2></header>
-    {%- include article-list.html articles=site.sample_page type='grid' -%}
-  </section>
 
-  <section class="my-5">
-    <header><h2 id="articles-layout">Articles(Home) Layout</h2></header>
-    {%- include article-list.html articles=site.sample_articles type='grid' -%}
-  </section>
 
-  <section class="my-5">
-    <header><h2 id="languages">Languages</h2></header>
-    {%- include article-list.html articles=site.sample_languages type='grid' size='sm' -%}
-  </section>
-</div>
+{%- for post in site.posts -%}
+  {%- if post.categories contains 'daily' -%}
+    <article class="index-page">
+      <h3><a href="{{ post.url }}""> {{ post.title }} {{ post.date }}</a></h3>
+        <!-- {{ post.excerpt }} -->
+    </article>
+  {%- endif -%}
+{%- endfor -%}
+
+
+{%- include article-list.html articles=site.posts type='item' show_info=true reverse=true -%}
+
