@@ -34,8 +34,8 @@ timezone: Asia/Seoul # see https://en.wikipedia.org/wiki/List_of_tz_database_tim
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
-  name      : "Soyeon"
+  type      : person # "person" (default), "organization"
+  name      : "So yeon Kim"
   url       : "https://Summernme.github.io"
   avatar    : "assets/images/summer.jpeg" # path or url of avatar image (square)
   bio       : I am an amazzzzzing person.
@@ -64,7 +64,7 @@ repository_tree: main
 paths:
   root    : # title link url, "/" (default)
   home    : # home layout url, "/" (default)
-  archive : # "/archive.html" (default)
+  archive : "/archive" # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
 
@@ -215,6 +215,8 @@ defaults:
       show_edit_on_github: false
       show_subscribe: true # feed.xml 하단부에 띄울 건지
       pageview: true
+
+category_list: [paper, daily]
 
 
 ## => Plugins
