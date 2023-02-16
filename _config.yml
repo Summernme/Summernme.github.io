@@ -212,7 +212,7 @@ defaults:
       license: true # 라이센스 표시
       aside:
         toc: true # 사이드 메뉴 활성화
-      show_edit_on_github: true
+      show_edit_on_github: false
       show_subscribe: true # feed.xml 하단부에 띄울 건지
       pageview: true
 
