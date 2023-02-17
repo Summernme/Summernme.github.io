@@ -10,12 +10,9 @@ Summary: "일상 기록"
 {%- for post in site.posts -%}
   {%- if post.categories contains 'daily' -%}
     <article class="index-page">
-      <h3><a href="{{ post.url }}""> {{ post.title }} {{ post.date }}</a></h3>
+      <span class="index-page-date">{{ post.date | date: "%Y %b %d" }}</span> &emsp; <a href="{{ post.url }}"><span class="index-page-title">{{ post.title }} </span></a>
         <!-- {{ post.excerpt }} -->
     </article>
   {%- endif -%}
 {%- endfor -%}
-
-
-{%- include article-list.html articles=site.posts type='item' show_info=true reverse=true -%}
 

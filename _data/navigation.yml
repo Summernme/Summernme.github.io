@@ -52,7 +52,7 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       Blog
+      en      : &EN       Category
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -76,9 +76,6 @@ header:
       # @end locale config
     url: /blog.html
 
-  - title: "Categories"
-    url: /categories/
-    
   - titles:
       # @start locale config
       en      : &EN       Archive
