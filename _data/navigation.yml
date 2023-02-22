@@ -48,7 +48,7 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       tr      : &TR       Arşivdekiler
-    url: /all.html
+    url: /all/
 
   - titles:
       # @start locale config
@@ -64,7 +64,7 @@ header:
       zh-Hant : &ZH_HANT  
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-      ko      : &KO       블로그
+      ko      : &KO       카테고리
       ko-KR   : *KO
       fr      : &FR       
       fr-BE   : *FR
@@ -74,7 +74,7 @@ header:
       fr-LU   : *FR
       tr      : &TR       
       # @end locale config
-    url: /blog.html
+    url: /category/
 
   - titles:
       # @start locale config
@@ -100,8 +100,7 @@ header:
       fr-LU   : *FR
       tr      : &TR       Arşivdekiler
       # @end locale config
-    url: /archive.html
-
+    url: /archive/
   - titles:
       # @start locale config
       en      : &EN       About
@@ -126,5 +125,5 @@ header:
       fr-LU   : *FR
       tr      : &TR       Hakkında
       # @end locale config
-    url: /about.html
+    url: /about/
   

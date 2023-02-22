@@ -11,6 +11,8 @@ article_header:
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     src: /dream.jpg
+permalink: /about/
+
 ---
 
 <!-- ---
@@ -45,8 +47,8 @@ titles:
 key: page-about
 --- -->
 
-<br/><br/><br/>
+
 
 # Summer
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QHm8IFldgq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/QHm8IFldgq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->

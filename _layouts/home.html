@@ -24,25 +24,35 @@ titles:
   fr-LU   : *FR
   tr      : &TR       Ana Sayfa
   # @end locale config
-show_title: true
+show_title: false
 cover: /dream.jpg
+<!-- mode: immersive -->
+<!-- header:
+  theme: dark -->
+<!-- article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: /dream.jpg -->
 articles:
-  type: brief
+  type: item
   data_source: paginator.posts
   article_type: BlogPosting
   show_cover: true
   show_excerpt: true
   show_readmore: false
   show_info: true
-permalink: /home.html
+permalink: /home/
 
 ---
-<div class="layout--home">
-  <!-- <img src="/dream.jpg" alt="My Image"> -->
+<!-- <div class="layout--home">
+  <img src="/dream.jpg" alt="My Image">
   {%- include paginator.html -%}
 </div>
 <script>
   {%- include scripts/home.js -%}
 </script>
 
-{{ content }}
+{{ content }} -->

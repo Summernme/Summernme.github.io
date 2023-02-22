@@ -48,7 +48,7 @@
             {%- assign _tag_encode = _tag | strip | url_encode } -%}
             <li>
               <a class="button button--secondary button--pill button--sm"
-                href="{{ _tag_path | append: _tag_encode | replace: '//', '/' }}">{{ _tag }}</a>
+                href="{{ _tag_path | append: _tag_encode | replace: '//', '/' }}"><span class="tag-text-color">{{ _tag }}</span></a>
             </li>
           {%- endfor -%}
         </ul>
