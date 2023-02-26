@@ -6,6 +6,7 @@ tags: [instance, Segmentation]
 author: Summer
 show_author_profile: true
 key: paper
+parmalink: /paper/SOLO-Segmenting-Objects-by-Locations/
 ---
 
 

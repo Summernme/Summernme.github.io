@@ -1,0 +1,42 @@
+---
+layout: page
+title: Category
+permalink: /category/
+Summary: ""
+mode: immersive
+header:
+  theme: dark
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: /dream.jpg
+
+---
+
+<h2><a>Daily</a></h2>
+
+{%- for post in site.posts -%}
+  {%- if post.categories contains 'daily' -%}
+    <article class="index-page">
+      <span class="index-page-date"><p style='line-height: 1.5;'>{{ post.date | date: "%Y %b %d" }}</span> &emsp; <a href="{{ post.url }}"><span class="index-page-title">{{ post.title }} </span></a></p>
+        <!-- {{ post.excerpt }} -->
+    </article>
+  {%- endif -%}
+{%- endfor -%}
+
+  </br></br>
+<h2><a>Paper</a></h2>
+
+{%- for post in site.posts -%}
+  {%- if post.categories contains 'paper' -%}
+    <article class="index-page">
+      <span class="index-page-date"><p style='line-height: 1.5;'>{{ post.date | date: "%Y %b %d" }}</span> &emsp; <a href="{{ post.url }}"><span class="index-page-title">{{ post.title }} </span></a></p>
+        <!-- {{ post.excerpt }} -->
+    </article>
+  {%- endif -%}
+{%- endfor -%}
+
+
