@@ -56,7 +56,7 @@ Each output channel is responsible for one of the semantic categories (including
 Semantic segmentation aims to distinguish different semantic categories.
 Analogously, in this work, we propose to distinguish object instances in the image by introducing the notion of “instance categories”, i.e., the quantized center locations and object sizes, which enables to segment objects by locations, thus the name of our method,SOLO.
 
-**Locations** An image can be divided into a grid of S ×S cells, thus leading to S2 center location classes.
+**Locations** An image can be divided into a grid of $S×S$ cells, thus leading to $S^2$ center location classes.
 According to the coordinates of the object center, an object instance is assigned to one of the grid cells, as its center location category.
 Note that grids are used conceptually to assign location category for each pixel.
 Each output channel is responsible for one of the center location categories, and the corresponding channel map should predict the instance mask of the object belonging to that location.
@@ -112,7 +112,7 @@ PolarMask [28] proposes to use the polar representation to encode masks and tran
 They both do not need bounding boxes for training but are either being step-wise or founded on compromise, e.g., coarse parametric representation of masks.
 Our SOLO takes an image as input, directly outputs instance masks and corresponding class probabilities, in a fully convolutional, box-free and grouping-free paradigm.
 
-# 2. Out Method: SOLO
+# 2. Our Method: SOLO
 
 ![Fig. 2. SOLO flamework. We reformulate the instance segmentation as two subtasks: category prediction and instance mask generation problems. An input image is divided into a uniform grids, i.e., $S×S$. Here we illustrate the grid with $S = 5$. If the center of an object falls into a grid cell, that grid cell is responsible for predicting the semantic category (top) and masks of instances (bottom). We do not show the feature pyramid network (FPN) here for simpler illustration.](https://user-images.githubusercontent.com/121393261/221417121-a02dbddd-f922-468b-9809-f30543db2413.png)
 
