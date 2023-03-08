@@ -6,7 +6,7 @@ tags: [instance, Segmentation]
 author: Summer
 show_author_profile: true
 key: paper
-parmalink: /paper/SOLO-Segmenting-Objects-by-Locations/
+permalink: /paper/SOLO-Segmenting-Objects-by-Locations/
 ---
 
 
@@ -273,7 +273,7 @@ Some SOLO outputs are visualized in Figure 6, and more examples are in the suppl
 
 ![Table 1. Instance segmentation mask AP (%) on the COCO test-dev. All entries are single-model results. Here we adopt the “6×” schedule (72 epochs), following [4]. Mask R-CNN∗ is our improved version with scale augmentation and longer training time. D-SOLO means Decoupled SOLO as introduced in Section 4.](https://user-images.githubusercontent.com/121393261/221417124-990f47c2-c6b7-4308-93ab-2c9d87463051.png)
 
-Table 1. Instance segmentation mask AP (%) on the COCO test-dev. All entries are single-model results. Here we adopt the “6×” schedule (72 epochs), following [4]. Mask R-CNN∗ is our improved version with scale augmentation and longer training time. D-SOLO means Decoupled SOLO as introduced in Section 4.
+> Table 1. Instance segmentation mask AP (%) on the COCO test-dev. All entries are single-model results. Here we adopt the “6×” schedule (72 epochs), following [4]. Mask R-CNN∗ is our improved version with scale augmentation and longer training time. D-SOLO means Decoupled SOLO as introduced in Section 4.
 
 ## 3.2. How SOLO Works?
 
